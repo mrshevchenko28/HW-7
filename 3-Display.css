@@ -1,0 +1,54 @@
+.first{
+    display: block; 
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: lightgray;
+}
+.second{
+    display: inline;
+    box-sizing: content-box;
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: lightblue;
+}
+.third{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: lightgreen;
+}
+.fourth{
+    display: none;
+    box-sizing: content-box;
+    border: 2px solid blue;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: pink;
+}
+.fifth{
+    display: flex;
+    box-sizing: content-box;
+    border: 2px solid orange;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: yellow;
+}
+.sixth{
+    display: grid;
+    box-sizing: border-box;
+    border: 2px solid purple;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: lightcoral;
+}
